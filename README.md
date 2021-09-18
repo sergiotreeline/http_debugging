@@ -86,3 +86,20 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 ## Debugging 
 
+### Setup Charles
+
+Configurar el puerto `8888`
+
+```sh
+Menu --> Proxy  --> Proxy Settings
+```
+
+![](img/img10.png)
+
+Agregar el host que se quiere inspeccionar en:
+
+```sh
+Menu --> Proxy  --> SSL Proxying Settings
+```
+
+![](img/img09.png)
