@@ -7,6 +7,18 @@ Charles es una herramienta que permite interceptar, ver y modificar todo el trá
 
 Cuando el proxy SSL esta habilitado, Charles recibe el certificado del servidor y el browser o aplicacion va a recibir el certificado de Charles. Dado que estos no van a confiar en el certificado es necesario instalar el certificado root en la computadora o dispositivo.
 
+
+- [Setups for Browser Debugging](#setups-for-browser-debugging)
+- [Setups for Android Debugging](#setups-for-android-debugging)
+- [Setups for iPhone Debugging](#setups-for-iphone-debugging)
+- [Setups for iPhone Simulator Debugging](#setups-for-iphone-simulator-debugging)
+- [Start Debugging](#start-debugging)
+  - [Modificar las respuestas](#modificar-las-respuestas)
+  - [Agregar delay a las respuestas](#agregar-delay-a-las-respuestas)
+  - [Ejecutar un request repetidamente](#ejecutar-un-request-repetidamente)
+  - [Breakpoints](#breakpoints)
+
+
 ## Setups for Browser Debugging 
 
 ### 1. Instalar el certificado root
@@ -117,7 +129,7 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 ### Setups for iPhone Simulator Debugging 
 
-## Debugging 
+## Start Debugging 
 
 ### Setup Charles
 
@@ -181,7 +193,7 @@ Como se puede observar se recibira el valor configurado
 
 <img src="img/img15.png" width="100%" height="100%">
 
-#### 3. Agregarle rules al request modificar el status code
+#### 3. Agregarle rules al request para modificar el status code
 
 También se puede editar el status code, esto puede util para testear diferentes casos de uso como por ejemplo podría ser la expiración de la sesión.
 
