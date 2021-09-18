@@ -152,7 +152,7 @@ Como resultado podrá empezar a ver el trafico entre la aplicación y el servido
 <img src="img/img12.png" width="50%" height="50%">
 
 
-### Sobrescribir el body de la respuesta 
+### Sobrescribir la respuesta 
 
 ```sh
 Menu --> Tools  --> Rewrite...
@@ -162,8 +162,18 @@ Menu --> Tools  --> Rewrite...
 
 <img src="img/img13.png" width="100%" height="100%">
 
-#### 2. Agregarle rules al request
+#### 2. Agregarle rules al request para que sobreescriba parte del body
 
 Por ejemplo en este caso se configura para que la aparicion de cierto string en el body sea remplazado por otro.
 
 <img src="img/img14.png" width="100%" height="100%">
+
+Como se puede observar se recibira el valor configurado
+
+<img src="img/img15.png" width="100%" height="100%">
+
+#### 3. Agregarle rules al request modificar el status code
+
+También se puede editar el status code, esto puede util para testear diferentes casos de uso como por ejemplo podría ser la expiración de la sesión.
+
+<img src="img/img16.png" width="100%" height="100%">
