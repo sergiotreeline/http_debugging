@@ -211,7 +211,7 @@ Menu --> Proxy  --> Start Throttling
 Desde la siguiente seccion se puede ejecutar un request de forma concurrente y repetida, esto puede servir para ver como se comporta el servidor ante cierta carga.
 
 ```sh
-Menu --> Tools  --> Advane Repeat...
+Menu --> Tools  --> Advanced Repeat...
 ```
 
 <img src="img/img18.png" width="50%" height="50%">
