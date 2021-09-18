@@ -25,6 +25,7 @@ Ir al keychain y buscar el certificado instalado ***Charles Proxy CA***
 
 ![02](img/img02.png)
 
+
 luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
 
 ![03](img/img03.png)
