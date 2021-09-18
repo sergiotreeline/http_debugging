@@ -4,9 +4,7 @@ Charles es una herramienta que permite interceptar, ver y modificar todo el trá
 
 ***Download:*** https://www.charlesproxy.com/
 
-
-Cuando el proxy SSL esta habilitado, Charles recibe el certificado del servidor y el browser o aplicacion va a recibir el certificado de Charles. Dado que estos no van a confiar en el certificado es necesario instalar el certificado root en la computadora o dispositivo.
-
+Cuando el proxy SSL está habilitado, Charles recibe el certificado del servidor y el browser o aplicación va a recibir el certificado de Charles. Dado que estos no van a confiar en el certificado es necesario instalar el certificado root en la computadora o dispositivo.
 
 - [Setups for Browser Debugging](#setups-for-browser-debugging)
 - [Setups for Android Debugging](#setups-for-android-debugging)
@@ -25,7 +23,7 @@ Cuando el proxy SSL esta habilitado, Charles recibe el certificado del servidor 
 
 ### 1. Instalar el certificado root
 
-Abrir Charles e ir al menu:
+Abrir Charles e ir al menú:
 
 ```sh
 Help --> SSL Proxying --> Install Charles Root Certificate
@@ -40,7 +38,7 @@ Ir al keychain y buscar el certificado instalado ***Charles Proxy CA***
 ![02](img/img02.png)
 
 
-luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
+luego darle doble click y en la sección `Confiar` seleccionar `Confiar Siempre`
 
 ![03](img/img03.png)
 
@@ -52,7 +50,7 @@ luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
 
 ### 1. Descargar e Instalar el certificado root en el dispositivo
 
-Abrir el siguiente link en el dispositivo y una vez descargado abrirlo para instalarlo. Si no se descarga el certificado descargarlo desde la computadora y enviarlo de algun modo al dispositivo.
+Abrir el siguiente link en el dispositivo y una vez descargado abrirlo para instalarlo. Si no se descarga el certificado descargarlo desde la computadora y enviarlo de algún modo al dispositivo.
 
 http://chls.pro/ssl
 
@@ -62,7 +60,7 @@ Al instalar el certificado darle un nombre `Charles` y seleccionar `VPN y aplica
 
 ### 2. Corroborar que se haya instalado
 
-Para corroborar la correcta instalacion o borrar el certificado puede hacerse desde
+Para corroborar la correcta instalación o borrar el certificado puede hacerse desde
 ```sh
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
@@ -71,7 +69,7 @@ Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usu
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
-La computadora y el dispositivo deben estar en la misma red por lo tanto o nos aseguramos que esten conectados la misma red WIFI o compartimos internet desde la computadora y nos conectamos a esta red desde el dispositivo mobile.
+La computadora y el dispositivo deben estar en la misma red por lo tanto o nos aseguramos que estén conectados la misma red WIFI o compartimos internet desde la computadora y nos conectamos a esta red desde el dispositivo mobile.
 
 ### 4. Configurar proxy
 
@@ -154,7 +152,7 @@ Settings --> General --> About --> Certificate Trust Settings
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
-La computadora y el dispositivo deben estar en la misma red por lo tanto o nos aseguramos que esten conectados la misma red WIFI o compartimos internet desde la computadora y nos conectamos a esta red desde el dispositivo mobile.
+La computadora y el dispositivo deben estar en la misma red por lo tanto o nos aseguramos que estén conectados la misma red WIFI o compartimos internet desde la computadora y nos conectamos a esta red desde el dispositivo mobile.
 
 ### 4. Configurar proxy
 
@@ -177,10 +175,10 @@ e ingresar la IP de la computadora y en puerto `8888`
 
 ## Setups for iPhone Simulator Debugging 
 
-Instalar el certificado en el simulador desde el menu de charles:
+Instalar el certificado en el simulador desde el menú de charles:
 
 ```sh
-Menu --> Help  --> SSL Proxying --> Install Charles Root Cetificate in iOS Simulator
+Menu --> Help  --> SSL Proxying --> Install Charles Root Certificate in iOS Simulator
 ```
 
 <img src="img/img21.png" width="50%" height="50%">
@@ -220,8 +218,7 @@ Menu --> Proxy  --> Start SSL Proxying
 
 <img src="img/img11.png" width="50%" height="50%">
 
-Como resultado podrá empezar a ver el trafico entre la aplicación y el servidor.
-
+Como resultado podrá empezar a ver el tráfico entre la aplicación y el servidor.
 
 <img src="img/img12.png" width="50%" height="50%">
 
@@ -247,17 +244,17 @@ Menu --> Tools  --> Rewrite...
 
 #### 2. Agregarle rules al request para que sobreescriba parte del body
 
-Por ejemplo en este caso se configura para que la aparicion de cierto string en el body sea remplazado por otro.
+Por ejemplo en este caso se configura para que la aparición de cierto string en el body sea reemplazado por otro.
 
 <img src="img/img14.png" width="100%" height="100%">
 
-Como se puede observar se recibira el valor configurado
+Como se puede observar se recibirá el valor configurado
 
 <img src="img/img15.png" width="100%" height="100%">
 
 #### 3. Agregarle rules al request para modificar el status code
 
-También se puede editar el status code, esto puede util para testear diferentes casos de uso como por ejemplo podría ser la expiración de la sesión.
+También se puede editar el status code, esto puede útil para testear diferentes casos de uso como por ejemplo podría ser la expiración de la sesión.
 
 <img src="img/img16.png" width="50%" height="50%">
 
@@ -274,7 +271,7 @@ y configurar el host en `Location` y agregar una latencia al request.
 
 <img src="img/img17.png" width="50%" height="50%">
 
-Por ultimo habilitar la funcionalidad desde:
+Por último habilitar la funcionalidad desde:
 
 ```sh
 Menu --> Proxy  --> Start Throttling
@@ -282,7 +279,7 @@ Menu --> Proxy  --> Start Throttling
 
 ### Ejecutar un request repetidamente
 
-Desde la siguiente seccion se puede ejecutar un request de forma concurrente y repetida, esto puede servir para ver como se comporta el servidor ante cierta carga.
+Desde la siguiente sección se puede ejecutar un request de forma concurrente y repetida, esto puede servir para ver cómo se comporta el servidor ante cierta carga.
 
 ```sh
 Menu --> Tools  --> Advanced Repeat...
@@ -308,8 +305,8 @@ y por ultimo habilitar los breakpoints:
 Menu --> Proxy  --> Enable Breakpoints
 ```
 
-Una vez hecho esto cada vez que se ejecute el request Charles nos notificara y noes permitira editarlo.
+Una vez hecho esto cada vez que se ejecute el request Charles nos notificará y no se permitirá editarlo.
 
-Algo importante a tener en cuenta es que editarlo puede llevarnos un tiempo por ende la aplicación podria llegar a dar timeout, por eso mismo es probable que antes haya que setear en la aplicación un timeout alto.
+Algo importante a tener en cuenta es que editarlo puede llevarnos un tiempo por ende la aplicación podría llegar a dar timeout, por eso mismo es probable que antes haya que setear en la aplicación un timeout alto.
 
 <img src="img/img20.png" width="100%" height="100%">
