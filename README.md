@@ -51,7 +51,7 @@ Para corroborar la correcta instalacion o borrar el certificado puede hacerse de
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
 
-![06](img/img06.png)
+![05](img/img005.png)
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
@@ -72,7 +72,7 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 ```
  Dentro de opciones avanzadas en la sección proxy seleccionar manual y en `host` ingresar la IP de la computadora y en puerto `8888`
 
-![05](img/img05.png)
+![06](img/img06.png)
 
 ### Setups for iPhone Debugging 
 
