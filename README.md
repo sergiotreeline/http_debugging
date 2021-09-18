@@ -17,10 +17,17 @@ Abrir Charles e ir al menu:
 Help --> SSL Proxying --> Install Charles Root Certificate
 ```
 
+![01](img/img01.png)
+
 #### 2. Autorizar/Confiar en el certificado
 
-Ir al keychain y buscar el certificado instalado ***Charles Proxy CA*** luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
+Ir al keychain y buscar el certificado instalado ***Charles Proxy CA*** 
 
+![02](img/img02.png)
+
+luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
+
+![03](img/img03.png)
 
 #### 3. Reiniciar el Chrome y Charles
 
@@ -34,12 +41,16 @@ http://chls.pro/ssl
 
 Al instalar el certificado darle un nombre `Charles` y seleccionar `VPN y aplicaciones`
 
+![04](img/img04.png)
+
 #### 2. Corroborar que se haya instalado
 
 Para corroborar la correcta instalacion o borrar el certificado puede hacerse desde
 ```sh
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
+
+![06](img/img06.png)
 
 #### 3. Configurar la conexión entre el dispositivo y la computadora
 
@@ -60,7 +71,7 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 ```
  Dentro de opciones avanzadas en la sección proxy seleccionar manual y en `host` ingresar la IP de la computadora y en puerto `8888`
 
-
+![05](img/img05.png)
 
 ### Setups for iPhone Debugging 
 
