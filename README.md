@@ -206,3 +206,12 @@ Por ultimo habilitar la funcionalidad desde:
 Menu --> Proxy  --> Start Throttling
 ```
 
+### Ejecutar un request repetidamente
+
+Desde la siguiente seccion se puede ejecutar un request de forma concurrente y repetida, esto puede servir para ver como se comporta el servidor ante cierta carga.
+
+```sh
+Menu --> Tools  --> Advane Repeat...
+```
+
+<img src="img/img18.png" width="50%" height="50%">
