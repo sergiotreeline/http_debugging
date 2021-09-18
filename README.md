@@ -19,6 +19,7 @@ Cuando el proxy SSL esta habilitado, Charles recibe el certificado del servidor 
   - [Ejecutar un request repetidamente](#ejecutar-un-request-repetidamente)
   - [Breakpoints](#breakpoints)
 
+<br/>
 
 ## Setups for Browser Debugging 
 
@@ -139,6 +140,8 @@ Menu --> Help  --> SSL Proxying --> Install Charles Root Cetificate in iOS Simul
 <img src="img/img21.png" width="50%" height="50%">
 
 `A veces es necesario reiniciar el simulador`
+
+<br/>
 
 ## Start Debugging 
 
