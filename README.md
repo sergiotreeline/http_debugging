@@ -53,7 +53,7 @@ Para corroborar la correcta instalacion o borrar el certificado puede hacerse de
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
 
-![](img/img08.png)
+<img src="img/img08.png" width="30%" height="30%">
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
@@ -77,6 +77,39 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 ![06](img/img06.png)
 
 <br/>
+
+### 5. Configurar Aplicación Android
+
+***Source:*** https://developer.android.com/training/articles/security-config
+
+#### Agregar en el proyecto Android el archivo `res/xml/network_security_config.xml`
+
+```sh
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config>
+        <trust-anchors>
+            <!-- Trust preinstalled CAs -->
+            <certificates src="system" />
+            <!-- Additionally trust user added CAs -->
+            <certificates src="user" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+```
+
+
+#### Agregar el archivo de configuración de seguridad de red en el manifest
+
+```sh
+    <?xml version="1.0" encoding="utf-8"?>
+    <manifest ... >
+        <application android:networkSecurityConfig="@xml/network_security_config"
+                        ... >
+            ...
+        </application>
+    </manifest>
+```
 
 ### Setups for iPhone Debugging 
 
@@ -105,10 +138,22 @@ Menu --> Proxy  --> SSL Proxying Settings
 ![](img/img09.png)
 
 
-#### 3. Start:
+#### 3. Start SSL:
 
 ```sh
 Menu --> Proxy  --> Start SSL Proxying
 ```
 
-![](img/img11.png)
+<img src="img/img11.png" width="50%" height="50%">
+
+Como resultado podrá empezar a ver el trafico entre la aplicación y el servidor.
+
+
+<img src="img/img12.png" width="50%" height="50%">
+
+
+### Sobrescribir el body de la respuesta 
+
+```sh
+Menu --> Tools  --> Rewrite...
+```
