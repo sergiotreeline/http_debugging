@@ -32,6 +32,8 @@ luego darle doble click y en la seccion `Confiar` seleccionar `Confiar Siempre`
 
 ### 3. Reiniciar el Chrome y Charles
 
+<br/>
+
 ## Setups for Android Debugging 
 
 ### 1. Descargar e Instalar el certificado root en el dispositivo
@@ -51,7 +53,7 @@ Para corroborar la correcta instalacion o borrar el certificado puede hacerse de
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
 
-![very good|100x50,20%](img/img08.png)
+![](img/img08.png)
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
@@ -74,7 +76,13 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 ![06](img/img06.png)
 
+<br/>
+
 ### Setups for iPhone Debugging 
 
+<br/>
+
 ### Setups for iPhone Simulator Debugging 
+
+## Debugging 
 
