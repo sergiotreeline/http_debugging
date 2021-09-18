@@ -220,7 +220,7 @@ Menu --> Proxy  --> Start SSL Proxying
 
 Como resultado podrá empezar a ver el tráfico entre la aplicación y el servidor.
 
-<img src="img/img12.png" width="50%" height="50%">
+<img src="img/img12.png" width="75%" height="75%">
 
 
 ### Modificar las respuestas
