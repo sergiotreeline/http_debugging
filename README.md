@@ -157,3 +157,13 @@ Como resultado podrá empezar a ver el trafico entre la aplicación y el servido
 ```sh
 Menu --> Tools  --> Rewrite...
 ```
+
+#### 1. Agregar/Configurar el request involucrado
+
+<img src="img/img13.png" width="100%" height="100%">
+
+#### 2. Agregarle rules al request
+
+Por ejemplo en este caso se configura para que la aparicion de cierto string en el body sea remplazado por otro.
+
+<img src="img/img14.png" width="100%" height="100%">
