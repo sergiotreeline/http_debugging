@@ -1,4 +1,4 @@
-# Charles Proxy: HTTP debugging
+# HTTP debugging: Charles Proxy
 
 Charles es una herramienta que permite interceptar, ver y modificar todo el tráfico HTTP / HTTPS entre la app y el servidor, pudiendo ser la app una aplicación web o mobile que corre en un dispositivo físico o emulador.
 
@@ -150,7 +150,7 @@ Ir a la siguiente sección y habilitar el certificado:
 Settings --> General --> About --> Certificate Trust Settings
 ```
 
-<img src="img/img23.png" width="50%" height="50%">
+<img src="img/img023.png" width="50%" height="50%">
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
@@ -171,7 +171,7 @@ Settings  --> Wi Fi --> Info button --> Configure Proxy
 ```
 e ingresar la IP de la computadora y en puerto `8888`
 
-![](img/img24.png)
+![](img/img024.png)
 
 <br/>
 
