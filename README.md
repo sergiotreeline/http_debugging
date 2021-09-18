@@ -154,9 +154,18 @@ Como resultado podrá empezar a ver el trafico entre la aplicación y el servido
 
 ### Sobrescribir la respuesta 
 
+Para poder modificar la respuesta de un request se debe ir a:
 ```sh
 Menu --> Tools  --> Rewrite...
 ```
+
+***Se pueden crear rules para:***
+* Add/Modify/Remove Header
+* Host
+* Path URL
+* Add/Modify/Remove Query Params
+* Response Status
+* Body
 
 #### 1. Agregar/Configurar el request involucrado
 
@@ -176,4 +185,6 @@ Como se puede observar se recibira el valor configurado
 
 También se puede editar el status code, esto puede util para testear diferentes casos de uso como por ejemplo podría ser la expiración de la sesión.
 
-<img src="img/img16.png" width="100%" height="100%">
+<img src="img/img16.png" width="50%" height="50%">
+
+
