@@ -42,7 +42,7 @@ http://chls.pro/ssl
 
 Al instalar el certificado darle un nombre `Charles` y seleccionar `VPN y aplicaciones`
 
-![04](img/img04.png)
+![04](img/img004.png)
 
 ### 2. Corroborar que se haya instalado
 
