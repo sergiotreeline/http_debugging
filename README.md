@@ -51,7 +51,7 @@ Para corroborar la correcta instalacion o borrar el certificado puede hacerse de
 Settings --> Seguridad --> Encriptación y credenciales --> Credenciales del usuario
 ```
 
-![01](img/img08.png)
+![](img/img08.png | width=100)
 
 ### 3. Configurar la conexión entre el dispositivo y la computadora
 
