@@ -124,12 +124,58 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
         </application>
     </manifest>
 ```
+<br/>
 
-### Setups for iPhone Debugging 
+## Setups for iPhone Debugging 
+
+### 1. Descargar e Instalar el certificado root en el dispositivo
+
+Abrir el siguiente link en el iPhone para descargar el certificado
+
+http://chls.pro/ssl
+
+Luego ir a la siguiente sección para instalarlo
+
+```sh
+Settings --> General --> Profiles & Device Management --> Selecionar certificado --> Instalar
+```
+
+![](img/img22.png)
+
+### 2. Habiltar certificado
+
+Ir a la siguiente sección y habilitar el certificado:
+
+```sh
+Settings --> General --> About --> Certificate Trust Settings
+```
+
+<img src="img/img23.png" width="50%" height="50%">
+
+### 3. Configurar la conexión entre el dispositivo y la computadora
+
+La computadora y el dispositivo deben estar en la misma red por lo tanto o nos aseguramos que esten conectados la misma red WIFI o compartimos internet desde la computadora y nos conectamos a esta red desde el dispositivo mobile.
+
+### 4. Configurar proxy
+
+Obtener la IP de la computadora:
+
+```sh
+ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'
+```
+
+Para configurar el Proxy se debe ir en el dispositivo a:
+
+```sh
+Settings  --> Wi Fi --> Info button --> Configure Proxy 
+```
+e ingresar la IP de la computadora y en puerto `8888`
+
+![](img/img24.png)
 
 <br/>
 
-### Setups for iPhone Simulator Debugging 
+## Setups for iPhone Simulator Debugging 
 
 Instalar el certificado en el simulador desde el menu de charles:
 
