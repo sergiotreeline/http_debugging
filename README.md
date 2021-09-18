@@ -130,7 +130,19 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 ### Setups for iPhone Simulator Debugging 
 
+Instalar el certificado en el simulador desde el menu de charles:
+
+```sh
+Menu --> Help  --> SSL Proxying --> Install Charles Root Cetificate in iOS Simulator
+```
+
+<img src="img/img21.png" width="50%" height="50%">
+
+`A veces es necesario reiniciar el simulador`
+
 ## Start Debugging 
+
+
 
 ### Setup Charles
 
