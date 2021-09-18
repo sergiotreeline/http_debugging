@@ -225,7 +225,8 @@ Menu --> Proxy  --> Breakpoint Settings...
 ```
 
 Se debe configurar el location:
-<img src="img/img19.png" width="50%" height="50%">
+
+<img src="img/img19.png" width="100%" height="100%">
 
 y por ultimo habilitar los breakpoints:
 
@@ -236,3 +237,5 @@ Menu --> Proxy  --> Enable Breakpoints
 Una vez hecho esto cada vez que se ejecute el request Charles nos notificara y noes permitira editarlo.
 
 Algo importante a tener en cuenta es que editarlo puede llevarnos un tiempo por ende la aplicación podria llegar a dar timeout, por eso mismo es probable que antes haya que setear en la aplicación un timeout alto.
+
+<img src="img/img20.png" width="100%" height="100%">
