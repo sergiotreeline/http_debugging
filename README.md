@@ -13,6 +13,7 @@ Cuando el proxy SSL esta habilitado, Charles recibe el certificado del servidor 
 - [Setups for iPhone Debugging](#setups-for-iphone-debugging)
 - [Setups for iPhone Simulator Debugging](#setups-for-iphone-simulator-debugging)
 - [Start Debugging:](#start-debugging)
+  - [Setup Charles](#setup-charles)
   - [Modificar las respuestas](#modificar-las-respuestas)
   - [Agregar delay a las respuestas](#agregar-delay-a-las-respuestas)
   - [Ejecutar un request repetidamente](#ejecutar-un-request-repetidamente)
