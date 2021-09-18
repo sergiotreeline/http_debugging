@@ -84,7 +84,7 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 #### Agregar en el proyecto Android el archivo `res/xml/network_security_config.xml`
 
-```sh
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <base-config>
@@ -101,7 +101,7 @@ Settings  --> Internet y redes --> Seleccionar la red WiFi --> Settings --> Edit
 
 #### Agregar el archivo de configuración de seguridad de red en el manifest
 
-```sh
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <manifest ... >
         <application android:networkSecurityConfig="@xml/network_security_config"
@@ -152,7 +152,7 @@ Como resultado podrá empezar a ver el trafico entre la aplicación y el servido
 <img src="img/img12.png" width="50%" height="50%">
 
 
-### Sobrescribir la respuesta 
+### Modificar las respuestas
 
 Para poder modificar la respuesta de un request se debe ir a:
 ```sh
@@ -187,4 +187,22 @@ También se puede editar el status code, esto puede util para testear diferentes
 
 <img src="img/img16.png" width="50%" height="50%">
 
+### Agregar delay a las respuestas
+
+
+Ir a la siguiente sección:
+
+```sh
+Menu --> Proxy  --> Throttle Settings...
+```
+ 
+y configurar el host en `Location` y agregar una latencia al request.
+
+<img src="img/img17.png" width="50%" height="50%">
+
+Por ultimo habilitar la funcionalidad desde:
+
+```sh
+Menu --> Proxy  --> Start Throttling
+```
 
