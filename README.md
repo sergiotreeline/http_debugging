@@ -215,3 +215,24 @@ Menu --> Tools  --> Advanced Repeat...
 ```
 
 <img src="img/img18.png" width="50%" height="50%">
+
+### Breakpoints
+
+Los breakpoints permiten interceptar los request o response y `editarlos on the fly`. Para esto es necesario configurarlos desde:
+
+```sh
+Menu --> Proxy  --> Breakpoint Settings...
+```
+
+Se debe configurar el location:
+<img src="img/img19.png" width="50%" height="50%">
+
+y por ultimo habilitar los breakpoints:
+
+```sh
+Menu --> Proxy  --> Enable Breakpoints
+```
+
+Una vez hecho esto cada vez que se ejecute el request Charles nos notificara y noes permitira editarlo.
+
+Algo importante a tener en cuenta es que editarlo puede llevarnos un tiempo por ende la aplicación podria llegar a dar timeout, por eso mismo es probable que antes haya que setear en la aplicación un timeout alto.
