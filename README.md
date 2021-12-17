@@ -54,6 +54,11 @@ Abrir el siguiente link en el dispositivo y una vez descargado abrirlo para inst
 
 http://chls.pro/ssl
 
+Luego ir a la carpeta de descargas y mover el archivo a una carpeta dentro de la SD card. Por último para instalarlo se debe ir a
+```sh
+Settings --> Seguridad --> Encriptación y credenciales --> Install from SD card
+```
+
 Al instalar el certificado darle un nombre `Charles` y seleccionar `VPN y aplicaciones`
 
 ![04](img/img004.png)
